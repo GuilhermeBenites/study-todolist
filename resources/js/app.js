@@ -6,7 +6,8 @@ import routes from "./routes.js"
 
 const router = createRouter({
     history: createWebHistory(),
-    routes
+    routes,
+    linkActiveClass: 'fill-todo-red text-todo-red'
 })
 
 const app = createApp({});
