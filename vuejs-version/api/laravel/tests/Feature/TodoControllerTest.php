@@ -14,12 +14,6 @@ class TodoControllerTest extends TestCase
 
     use RefreshDatabase;
 
-    /**
-     * todo update todo
-     * todo mark as done
-     * todo delete a todo
-     * todo check security access
-     */
     public function test_should_create_a_todo_successfully(): void
     {
         $user = User::factory()->create();
@@ -81,4 +75,11 @@ class TodoControllerTest extends TestCase
     {
 
     }
+
+    /**
+     * todo update todo
+     * todo mark as done
+     * todo delete a todo
+     * todo check security access
+     */
 }
